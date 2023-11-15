@@ -1,0 +1,114 @@
+body,html{
+    height: 100%;
+    width: auto;
+    background: linear-gradient(178.1deg, rgb(60, 55, 106) 8.5%, rgb(23, 20, 69) 82.4%);
+    background: linear-gradient(to bottom right,skyblue, blue);
+}
+
+.background{
+    background-color: black;
+}
+.logo{
+    top: 8px;
+    left: 20px;
+    position: absolute;
+}
+.navi{
+    top: 14px;
+    color: aliceblue;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    position: absolute;
+}
+
+#Home{
+    left: 650px;
+    color: rgba(255, 255, 255, 0.59);
+}    
+#Home:hover{
+    color: aliceblue;
+    
+}
+
+#Courses{
+    left: 740px;
+    color: rgba(255, 255, 255, 0.59);
+
+
+}
+#Courses:hover{
+    color: aliceblue;
+}
+
+#Students{
+    left: 850px;
+    color: rgba(255, 255, 255, 0.59);
+
+}
+#Students:hover{
+    color: aliceblue;
+}
+#About:hover{
+    color: aliceblue;
+}
+
+#About{
+    left: 1000px;
+    color: aliceblue;
+}
+
+#Login{
+    left: 1450px;
+    border: 1px solid blue;
+    border-radius: 8px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 8px;
+    padding-bottom: 9px;
+} 
+#Signin{
+    left: 1552px;
+    border: 1px solid blue;
+    border-radius: 8px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 8px;
+    padding-bottom: 9px;
+    background-color: blue;
+}
+#Signin:hover{
+    background-color: blue;
+    color: red;
+}
+#Login:hover{
+    background-color: blue;
+    color: aqua;
+}
+.log{
+    border: 5px solid rgb(14, 15, 15);
+    box-shadow: 15px, 15px 8px, blue, red;
+    
+    position: absolute;
+    padding-left: 15px;
+    width: 400px;
+    height: 200px;
+    top: 250px;
+    left: 650px;
+    /*background-image: linear-gradient(rgb(236, 228, 228)), rgb(62, 120, 190));
+    */
+}
+label{
+    font-size: 19px;
+}
+#button{
+    top: 60px;
+    left: 98px;
+    position: absolute;
+}
+
+.formin{
+    position: absolute;
+    top: 80px;
+    left: 60px;
+}

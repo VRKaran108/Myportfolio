@@ -1,0 +1,107 @@
+body,html{
+    height: 100%;
+    width: auto;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(to bottom right rgba(78, 50, 50, 0.833), rgba(45, 45, 203, 0.882));
+
+}
+.background{
+    background-color: black;
+}
+.logo{
+    top: 8px;
+    left: 20px;
+    position: absolute;
+}
+.navi{
+    top: 14px;
+    color: aliceblue;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    position: absolute;
+}
+
+#Home{
+    left: 650px;
+    color: rgba(255, 255, 255, 0.59);
+
+}    
+#Courses{
+    left: 740px;
+    color: rgba(255, 255, 255, 0.59);
+
+
+}
+#Courses:hover, Courses:active{
+    color: aliceblue;
+}
+
+#Students{
+    left: 850px;
+    color: aliceblue;
+
+}
+#Students:hover{
+    color: aliceblue;
+}
+#About:hover{
+    color: aliceblue;
+}
+
+#About{
+    left: 1000px;
+    color: rgba(255, 255, 255, 0.59);
+}
+
+#Login{
+    left: 1450px;
+    border: 1px solid blue;
+    border-radius: 8px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 8px;
+    padding-bottom: 9px;
+} 
+#Signin{
+    left: 1552px;
+    border: 1px solid blue;
+    border-radius: 8px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 8px;
+    padding-bottom: 9px;
+    background-color: blue;
+}
+#Signin:hover{
+    background-color: blue;
+    color: red;
+}
+#Login:hover{
+    background-color: blue;
+    color: aqua;
+}
+.box{
+    padding: 15px;
+   position: absolute;
+   margin-top: 400px;
+   margin-left: 150px;
+   margin-right: 150px;
+   max-height: 100px;
+   border: 3px solid white;
+   overflow: auto;
+}
+.me{
+    position: absolute;
+    font-size: 3em;
+    top: 200px;
+}
+
+h3{
+    position: absolute;
+    font-size: 3rem;
+    top: 300px;
+    left: 159px;
+    text-shadow: -2px -2px 2px red;
+    
+}
